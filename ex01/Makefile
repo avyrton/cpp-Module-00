@@ -5,16 +5,16 @@
 #                                                     +:+ +:+         +:+      #
 #    By: ddark <marvin@42.fr>                       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/03/11 09:56:23 by ddark             #+#    #+#              #
-#    Updated: 2022/03/11 09:56:50 by ddark            ###   ########.fr        #
+#    Created: 2022/03/17 06:53:29 by ddark             #+#    #+#              #
+#    Updated: 2022/03/17 06:53:43 by ddark            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME	= megaphone
+NAME	= phonebook
 STD		= -std=c++98
 FLAGS	= -Wall -Wextra -Werror
 
-SRC		= megaphone.cpp
+SRC		= Contact.class.cpp PhoneBook.class.cpp main.cpp
 OBJ		= $(SRC:%.cpp=%.o)
 
 .PHONY	: all clean fclean re
